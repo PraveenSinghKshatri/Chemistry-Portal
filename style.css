@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    color: #82a5ca;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    background-color: black;
+}
+
+#hero {
+    background-image: url("pc.webp");
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding: 10px 0 40px 0;
+    height: 400px;
+    width: 400px;
+    max-width: 1000px;
+    max-height:1000px;
+    margin: 0 auto;
+    
+  
+
+}
+
+#main-logo {
+    width: 150px;
+    z-index:-10;
+}
+
+/*
+Challenge:
+Add a blurred border around the <h1> using
+the text-shadow technique you just learned. Set
+the blur to 4px and the color to black.
+*/
+
+.btn {
+    padding: 5px 10px;
+    background: white;
+    border: none;
+    font-family: 'Orbitron', sans-serif;
+    color: #a5ca228;
+    font-weight: 800;
+}
+
+.btn:hover{
+    background: black;
+
+    color: #82a5ca;
+}
+.btn::after{
+    background: black;
+
+    color: #82a5ca;
+}
+.line {
+    border-bottom: 1px solid white;
+    width: 130px;
+}
+
+.underline {
+    border-bottom: 4px solid white;
+}
+
+h3{
+    align-items: baseline;
+    margin:0 auto;
+}
+
+.hover:hover{
+    background-color: gray;
+}
